@@ -1,0 +1,22 @@
+
+body {
+    padding: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'InputSansCompressed';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #F2F2F2;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 13px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 7; }
+    .div2 { grid-area: 2 / 1 / 8 / 4; }
+    .div3 { grid-area: 3 / 4 / 7 / 7; }
