@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'ZangeziSans09';
+	
+	src:	url('ZangeziSans09-Regular.woff') format('woff');
+		
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ZangeziSans09';
+	src: 		url('ZangeziSans09-Text.woff') format('woff');
+		
+	font-weight: 300;
+	font-style: normal;
+}
