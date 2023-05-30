@@ -73,6 +73,13 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .div2{
+        justify-content: center;
+        align-items: left;
+        display: block;
+        margin: 0 auto;
+    
+    }
 
     .div4{
         justify-content: center;
