@@ -1,13 +1,11 @@
 function generateM() {
     var afrmt = [ 
    
-    '<img src="images/img1.png">',
-    '<img src="images/img2.png">',
-    '<img src="images/img3.png">',
-    '<img src="images/img4.png">',
-    '<img src="images/img5.png">',
-    '<img src="images/img6.png">',
-    '<img src="images/img7.png">',
+    '<img src="images/img_01.png">',
+    '<img src="images/img_02.png">',
+    '<img src="images/img_03.png">',
+    '<img src="images/img_04.png">',
+    
     
     
     
