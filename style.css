@@ -176,3 +176,81 @@ img{
 
     }
     
+
+    @media only screen and (min-width: 1000px) {
+
+        h1{
+            padding: 0px 150px 0px;
+            font-size: 42px;
+            font-family: 'ZangeziSans09';
+            font-weight: normal;
+            font-style: normal;
+            color: rgb(243, 239, 229);
+            margin: 0px;
+            text-align: center;
+        }
+
+        p{
+            margin: 10px;
+            padding: 0px 150px 0px;
+            font-size: 28px;
+            font-family: 'ZangeziSans09';
+            font-weight: normal;
+            font-style: normal;
+            color: rgb(243, 239, 229);
+            text-align: center;
+            line-height: normal;
+        }
+
+        .btn {
+            display: block;
+            border: solid 3px #272727;
+            font-size: 24px;
+            line-height: 1;
+            padding: 20px 40px;
+            border-radius: 50px;
+            background: #272727;
+            color: #F2F2F2;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            font-family: 'ZangeziSans09';
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        img{
+            max-width: 450px;
+            max-height: 450px;
+        }
+
+        .div1{
+            max-height: 120px;
+            justify-content: center;
+            align-items: center;
+            
+            margin: 0;
+        }
+        .div2{
+            max-width: 100%;
+            padding: 0px 0px 0px;
+            justify-content: center;
+            align-items: center;
+            display: block;
+            margin: 0 auto;
+            
+        
+        }
+        .div3{
+            padding: 0px 0px 0px;
+            width: 100%;
+        }  
+        .div4{
+            width: 100%;
+            padding: 10px 0px 0px;
+            justify-content: center;
+            align-items: center;
+            display: block;
+            margin: 0 auto;
+        }
+
+    }
