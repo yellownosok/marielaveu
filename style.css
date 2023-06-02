@@ -10,13 +10,18 @@ body {
     background-color: #000000;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    height: 550px;
+    height: 600px;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 6; }
@@ -96,5 +101,49 @@ body {
         align-items: center;
         display: block;
         margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        h1{
+            font-size: 48px;
+            font-family: 'ZangeziSans09';
+            font-weight: normal;
+            font-style: normal;
+            color: rgb(243, 239, 229);
+            
+            text-align: center;
+        }
+
+        p{
+            padding: 0px 60px 0px;
+            font-size: 28px;
+            font-family: 'ZangeziSans09';
+            font-weight: normal;
+            font-style: normal;
+            color: rgb(243, 239, 229);
+            text-align: center;
+            line-height: normal;
+        }
+
+        .btn {
+            display: block;
+            border: solid 3px #272727;
+            font-size: 28px;
+            line-height: 1;
+            padding: 20px 40px;
+            border-radius: 50px;
+            background: #272727;
+            color: #F2F2F2;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            font-family: 'ZangeziSans09';
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        
+            
+
     }
     
