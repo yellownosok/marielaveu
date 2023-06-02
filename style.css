@@ -87,7 +87,7 @@ img{
 
     .div2{
         max-width: 100%;
-        padding: 30px 0px 0px;
+        padding: 15px 0px 0px;
         justify-content: center;
         align-items: center;
         display: block;
@@ -121,7 +121,7 @@ img{
         }
 
         p{
-            padding: 0px 60px 0px;
+            padding: 0px 0px 0px;
             font-size: 28px;
             font-family: 'ZangeziSans09';
             font-weight: normal;
