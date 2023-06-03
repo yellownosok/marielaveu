@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,22 @@
 </head>
 
 
-<body>
+<body oncontextmenu="return false">
     <div class="parent">
         <div class="div1">
             <h1>Праздничные предсказания <br> от Верховной жрицы</h1> 
         </div>
 
-        <div class="div2"> </div>
+        <div class="div2"> 
+            <img class="defaultimg" src="images/img_00.jpg" alt="img1">
+        </div>
 
-        <div class="div3">
+        <div class="div3"> </div>
+
+        <div class="div4">
             <p></p>   
         </div>
-        <div class="div4">
+        <div class="div5">
             <div class="btn-img"> 
                 <button class="btn" onclick="generate(); generateM();">
                 Получить предсказание
@@ -35,6 +40,7 @@
     
     <script src="prediction.js"></script>
     <script src="predictionImg.js"></script>
+    
 
 </body>
 
